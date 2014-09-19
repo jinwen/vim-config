@@ -2,9 +2,6 @@
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
-" Core
-Bundle 'git://github.com/gmarik/vundle.git'
-
 " Colors
 Bundle 'git://github.com/larssmit/vim-getafe.git'
 
@@ -26,8 +23,8 @@ Bundle 'git://github.com/cakebaker/scss-syntax.vim.git'
 Bundle 'git://github.com/vim-scripts/csv.vim.git'
 Bundle 'git://github.com/mmalecki/vim-node.js.git'
 Bundle 'git://github.com/vim-ruby/vim-ruby.git'
-Bundle 'git://github.com/vim-scripts/Arduino-syntax-file.git'
-Bundle 'git://github.com/tclem/vim-arduino.git'
+" Bundle 'git://github.com/vim-scripts/Arduino-syntax-file.git'
+" Bundle 'git://github.com/tclem/vim-arduino.git'
 Bundle 'git://github.com/vim-scripts/VimClojure.git'
 Bundle 'git://github.com/groenewege/vim-less.git'
 Bundle 'git://github.com/wlangstroth/vim-haskell.git'
