@@ -33,6 +33,7 @@ Bundle 'git://github.com/groenewege/vim-less.git'
 Bundle 'git://github.com/wlangstroth/vim-haskell.git'
 Bundle 'git://github.com/digitaltoad/vim-jade.git'
 Bundle 'git://github.com/aliva/vim-fish.git'
+Bundle 'git://github.com/fatih/vim-go.git'
 
 " Tools
 Bundle 'git://github.com/tpope/vim-fugitive.git'
@@ -55,6 +56,11 @@ Bundle 'git://github.com/jeetsukumaran/vim-buffergator.git'
 Bundle 'git://github.com/edsono/vim-matchit.git'
 Bundle 'git://github.com/sjl/gundo.vim.git'
 Bundle 'git://github.com/tomtom/tlib_vim.git'
+
+" Clojure
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
 
 " -----------------------------------------------------------------------------
 " My Settings Begin
@@ -153,7 +159,7 @@ set expandtab
 set cindent
 
 " linenumber
-set nu
+set number
 
 " Status
 " -----------------------------------------------------------------------------
@@ -208,7 +214,7 @@ nmap <silent> <leader>cd :lcd %:h<CR>
 nmap <leader>ew :e    %:p:h/<CR>
 nmap <leader>es :sp   %:p:h/<CR>
 nmap <leader>ev :vs   %:p:h/<CR>
-nmap <leader>et :tabe %:p:h/<CR>
+nmap <leader>etb :tabe %:p:h/<CR>
 
 " HEX view
 nmap <leader>16  :% !xxd<CR>
