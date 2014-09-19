@@ -61,6 +61,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath'
+Plugin 'luochen1990/rainbow'
 
 " -----------------------------------------------------------------------------
 " My Settings Begin
@@ -289,5 +290,8 @@ let g:RspecBin    = 'rspec'
 let g:RspecRBPath = expand("~/").'.vim/bundle/vim-rspec/plugin/vim-rspec.vim'
 
 " Config the Clojure
-" let vimclojure#WantNailgun   = 1
-" let vimclojure#NailgunClient = '/Users/honghao/local/lib/vimclojure-nailgun-client-2.3.0/ng'
+let g:rainbow_active = 1
+
+" Config the indent-guides
+hi IndentGuidesOdd ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey
