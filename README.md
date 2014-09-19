@@ -1,7 +1,7 @@
 vim-config
 ==========
 
-a vundle backed vim configuration
+A [Vundle](https://github.com/gmarik/Vundle.vim) powered vim configuration
 
 ## How to install
 
