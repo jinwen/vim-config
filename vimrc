@@ -61,7 +61,8 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath'
-Plugin 'luochen1990/rainbow'
+"Plugin 'kien/rainbow_parentheses.vim'
+"Plugin 'luochen1990/rainbow'
 
 " -----------------------------------------------------------------------------
 " My Settings Begin
@@ -281,16 +282,16 @@ nmap <silent>tt :NERDTreeToggle<CR>
 let g:Powerline_symbols = 'fancy'
 
 " Syntastic
-let g:syntastic_enable_signs   = 1
-let g:syntastic_quiet_warnings = 0
-let g:syntastic_auto_loc_list  = 2
+"let g:syntastic_enable_signs   = 1
+"let g:syntastic_quiet_warnings = 0
+"let g:syntastic_auto_loc_list  = 2
 
 " Config the Rspec
 let g:RspecBin    = 'rspec'
 let g:RspecRBPath = expand("~/").'.vim/bundle/vim-rspec/plugin/vim-rspec.vim'
 
 " Config the Clojure
-let g:rainbow_active = 1
+"let g:rainbow_active = 1
 
 " Config the indent-guides
 hi IndentGuidesOdd ctermbg=black
