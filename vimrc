@@ -57,6 +57,9 @@ Plugin 'edsono/vim-matchit'
 Plugin 'sjl/gundo.vim'
 Plugin 'tomtom/tlib_vim'
 
+" Python
+Plugin 'vim-scripts/indentpython.vim'
+
 " Clojure
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
