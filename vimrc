@@ -53,7 +53,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'vim-scripts/ZoomWin'
 Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'edsono/vim-matchit'
+"Plugin 'edsono/vim-matchit'
 Plugin 'sjl/gundo.vim'
 Plugin 'tomtom/tlib_vim'
 
