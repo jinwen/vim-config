@@ -33,7 +33,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'wlangstroth/vim-haskell'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'aliva/vim-fish'
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
 
 " Tools
 Plugin 'tpope/vim-fugitive'
