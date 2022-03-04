@@ -264,11 +264,11 @@ nmap <silent> <F3> :Grep<CR>
 let g:ctrlp_map = '<C-F>'
 
 " FuGitive
-nmap <leader>gb :Gblame<CR>
-nmap <leader>gs :Gstatus<CR>
-nmap <leader>gd :Gdiff<CR>
-nmap <leader>gl :Glog<CR>
-nmap <leader>gc :Gcommit<CR>
+nmap <leader>gb :Git blame<CR>
+nmap <leader>gs :Git<CR>
+nmap <leader>gd :Git diff<CR>
+nmap <leader>gl :Git log<CR>
+nmap <leader>gc :Git commit<CR>
 nmap <leader>gp :Git push<CR>
 
 " GunDo
